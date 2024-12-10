@@ -8,6 +8,7 @@
 /Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.AssemblyInfoInputs.cache
 /Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.AssemblyInfo.cs
 /Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.csproj.CoreCompileInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.sourcelink.json
 /Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.csproj.Up2Date
 /Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.dll
 /Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/refint/DAL.dll

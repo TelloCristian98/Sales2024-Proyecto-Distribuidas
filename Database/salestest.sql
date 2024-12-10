@@ -5,6 +5,8 @@
 -- Dumped from database version 14.15 (Homebrew)
 -- Dumped by pg_dump version 14.15 (Homebrew)
 
+--psql -U root -d salestest -h localhost -p 5432
+
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
@@ -23,6 +25,25 @@ SET default_table_access_method = heap;
 --
 -- Name: categories; Type: TABLE; Schema: public; Owner: root
 --
+
+CREATE TABLE users (
+    userid SERIAL PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    passwordhash VARCHAR(255) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    role VARCHAR(20) NOT NULL, -- Example roles: Admin, Editor, Viewer
+    isactive BOOLEAN DEFAULT TRUE,
+    createdat TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updatedat TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE audit_logs (
+    logid SERIAL PRIMARY KEY,
+    userid INT REFERENCES users(userid),
+    action VARCHAR(255) NOT NULL,
+    ipaddress VARCHAR(50),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
 CREATE TABLE public.categories (
     categoryid integer NOT NULL,

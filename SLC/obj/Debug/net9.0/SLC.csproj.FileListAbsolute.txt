@@ -8,6 +8,7 @@
 /Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.AssemblyInfoInputs.cache
 /Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.AssemblyInfo.cs
 /Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.csproj.CoreCompileInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.sourcelink.json
 /Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.csproj.Up2Date
 /Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.dll
 /Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/refint/SLC.dll

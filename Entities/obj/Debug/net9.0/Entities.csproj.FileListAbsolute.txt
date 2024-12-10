@@ -5,6 +5,7 @@
 /Users/cristiantello/Documents/University/Sales2024/Entities/obj/Debug/net9.0/Entities.AssemblyInfoInputs.cache
 /Users/cristiantello/Documents/University/Sales2024/Entities/obj/Debug/net9.0/Entities.AssemblyInfo.cs
 /Users/cristiantello/Documents/University/Sales2024/Entities/obj/Debug/net9.0/Entities.csproj.CoreCompileInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/Entities/obj/Debug/net9.0/Entities.sourcelink.json
 /Users/cristiantello/Documents/University/Sales2024/Entities/obj/Debug/net9.0/Entities.dll
 /Users/cristiantello/Documents/University/Sales2024/Entities/obj/Debug/net9.0/refint/Entities.dll
 /Users/cristiantello/Documents/University/Sales2024/Entities/obj/Debug/net9.0/Entities.pdb

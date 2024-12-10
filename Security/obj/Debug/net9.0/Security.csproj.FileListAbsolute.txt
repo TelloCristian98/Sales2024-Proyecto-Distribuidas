@@ -1,0 +1,13 @@
+/Users/cristiantello/Documents/University/Sales2024/Security/bin/Debug/net9.0/Security.deps.json
+/Users/cristiantello/Documents/University/Sales2024/Security/bin/Debug/net9.0/Security.dll
+/Users/cristiantello/Documents/University/Sales2024/Security/bin/Debug/net9.0/Security.pdb
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/Security.csproj.AssemblyReference.cache
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/Security.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/Security.AssemblyInfoInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/Security.AssemblyInfo.cs
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/Security.csproj.CoreCompileInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/Security.sourcelink.json
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/Security.dll
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/refint/Security.dll
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/Security.pdb
+/Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/ref/Security.dll

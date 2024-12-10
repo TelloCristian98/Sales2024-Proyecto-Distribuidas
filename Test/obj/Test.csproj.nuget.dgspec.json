@@ -202,6 +202,79 @@
         }
       }
     },
+    "/Users/cristiantello/Documents/University/Sales2024/Security/Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cristiantello/Documents/University/Sales2024/Security/Security.csproj",
+        "projectName": "Security",
+        "projectPath": "/Users/cristiantello/Documents/University/Sales2024/Security/Security.csproj",
+        "packagesPath": "/Users/cristiantello/.nuget/packages/",
+        "outputPath": "/Users/cristiantello/Documents/University/Sales2024/Security/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cristiantello/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/cristiantello/Documents/University/Sales2024/Service/Service.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -230,6 +303,9 @@
               "/Users/cristiantello/Documents/University/Sales2024/Entities/Entities.csproj": {
                 "projectPath": "/Users/cristiantello/Documents/University/Sales2024/Entities/Entities.csproj"
               },
+              "/Users/cristiantello/Documents/University/Sales2024/Security/Security.csproj": {
+                "projectPath": "/Users/cristiantello/Documents/University/Sales2024/Security/Security.csproj"
+              },
               "/Users/cristiantello/Documents/University/Sales2024/SLC/SLC.csproj": {
                 "projectPath": "/Users/cristiantello/Documents/University/Sales2024/SLC/SLC.csproj"
               }
@@ -252,6 +328,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -378,8 +462,14 @@
               "/Users/cristiantello/Documents/University/Sales2024/BLL/BLL.csproj": {
                 "projectPath": "/Users/cristiantello/Documents/University/Sales2024/BLL/BLL.csproj"
               },
+              "/Users/cristiantello/Documents/University/Sales2024/DAL/DAL.csproj": {
+                "projectPath": "/Users/cristiantello/Documents/University/Sales2024/DAL/DAL.csproj"
+              },
               "/Users/cristiantello/Documents/University/Sales2024/Entities/Entities.csproj": {
                 "projectPath": "/Users/cristiantello/Documents/University/Sales2024/Entities/Entities.csproj"
+              },
+              "/Users/cristiantello/Documents/University/Sales2024/Security/Security.csproj": {
+                "projectPath": "/Users/cristiantello/Documents/University/Sales2024/Security/Security.csproj"
               },
               "/Users/cristiantello/Documents/University/Sales2024/Service/Service.csproj": {
                 "projectPath": "/Users/cristiantello/Documents/University/Sales2024/Service/Service.csproj"
@@ -406,6 +496,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"

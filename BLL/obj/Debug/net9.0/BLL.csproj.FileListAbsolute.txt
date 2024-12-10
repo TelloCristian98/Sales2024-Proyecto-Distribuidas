@@ -10,6 +10,7 @@
 /Users/cristiantello/Documents/University/Sales2024/BLL/obj/Debug/net9.0/BLL.AssemblyInfoInputs.cache
 /Users/cristiantello/Documents/University/Sales2024/BLL/obj/Debug/net9.0/BLL.AssemblyInfo.cs
 /Users/cristiantello/Documents/University/Sales2024/BLL/obj/Debug/net9.0/BLL.csproj.CoreCompileInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/BLL/obj/Debug/net9.0/BLL.sourcelink.json
 /Users/cristiantello/Documents/University/Sales2024/BLL/obj/Debug/net9.0/BLL.csproj.Up2Date
 /Users/cristiantello/Documents/University/Sales2024/BLL/obj/Debug/net9.0/BLL.dll
 /Users/cristiantello/Documents/University/Sales2024/BLL/obj/Debug/net9.0/refint/BLL.dll
