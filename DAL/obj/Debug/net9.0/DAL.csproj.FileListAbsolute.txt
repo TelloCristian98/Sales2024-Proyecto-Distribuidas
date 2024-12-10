@@ -1,0 +1,15 @@
+/Users/cristiantello/Documents/University/Sales2024/DAL/bin/Debug/net9.0/DAL.deps.json
+/Users/cristiantello/Documents/University/Sales2024/DAL/bin/Debug/net9.0/DAL.dll
+/Users/cristiantello/Documents/University/Sales2024/DAL/bin/Debug/net9.0/DAL.pdb
+/Users/cristiantello/Documents/University/Sales2024/DAL/bin/Debug/net9.0/Entities.dll
+/Users/cristiantello/Documents/University/Sales2024/DAL/bin/Debug/net9.0/Entities.pdb
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.csproj.AssemblyReference.cache
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.AssemblyInfoInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.AssemblyInfo.cs
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.csproj.CoreCompileInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.csproj.Up2Date
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.dll
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/refint/DAL.dll
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/DAL.pdb
+/Users/cristiantello/Documents/University/Sales2024/DAL/obj/Debug/net9.0/ref/DAL.dll

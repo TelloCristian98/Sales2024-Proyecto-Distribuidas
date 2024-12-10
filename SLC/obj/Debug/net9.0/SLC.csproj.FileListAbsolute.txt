@@ -1,0 +1,15 @@
+/Users/cristiantello/Documents/University/Sales2024/SLC/bin/Debug/net9.0/SLC.deps.json
+/Users/cristiantello/Documents/University/Sales2024/SLC/bin/Debug/net9.0/SLC.dll
+/Users/cristiantello/Documents/University/Sales2024/SLC/bin/Debug/net9.0/SLC.pdb
+/Users/cristiantello/Documents/University/Sales2024/SLC/bin/Debug/net9.0/Entities.dll
+/Users/cristiantello/Documents/University/Sales2024/SLC/bin/Debug/net9.0/Entities.pdb
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.csproj.AssemblyReference.cache
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.AssemblyInfoInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.AssemblyInfo.cs
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.csproj.CoreCompileInputs.cache
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.csproj.Up2Date
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.dll
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/refint/SLC.dll
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/SLC.pdb
+/Users/cristiantello/Documents/University/Sales2024/SLC/obj/Debug/net9.0/ref/SLC.dll
