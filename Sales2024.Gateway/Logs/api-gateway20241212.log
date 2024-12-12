@@ -1,0 +1,284 @@
+2024-12-12 03:32:30.344 -05:00 [INF] User profile is available. Using 'C:\Users\sebas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 03:32:30.414 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2024-12-12 03:32:30.433 -05:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5205: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
+ ---> System.Net.Sockets.SocketException (10048): Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-12-12 03:35:15.900 -05:00 [INF] User profile is available. Using 'C:\Users\sebas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 03:35:15.955 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2024-12-12 03:35:15.972 -05:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5205: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
+ ---> System.Net.Sockets.SocketException (10048): Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-12-12 03:46:19.732 -05:00 [INF] User profile is available. Using 'C:\Users\sebas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 03:46:19.789 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2024-12-12 03:46:19.801 -05:00 [INF] Now listening on: https://localhost:5200
+2024-12-12 03:46:19.802 -05:00 [INF] Now listening on: http://localhost:5206
+2024-12-12 03:46:19.803 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 03:46:19.804 -05:00 [INF] Hosting environment: Development
+2024-12-12 03:46:19.805 -05:00 [INF] Content root path: C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway
+2024-12-12 03:52:21.865 -05:00 [INF] Application is shutting down...
+2024-12-12 03:54:27.989 -05:00 [INF] User profile is available. Using 'C:\Users\sebas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 03:54:28.041 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2024-12-12 03:54:28.053 -05:00 [INF] Now listening on: https://localhost:5200
+2024-12-12 03:54:28.054 -05:00 [INF] Now listening on: http://localhost:5206
+2024-12-12 03:54:28.055 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 03:54:28.056 -05:00 [INF] Hosting environment: Development
+2024-12-12 03:54:28.056 -05:00 [INF] Content root path: C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway
+2024-12-12 03:55:04.534 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5200/ - null null
+2024-12-12 03:55:04.552 -05:00 [INF] Acceso: GET /
+2024-12-12 03:55:09.482 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5200/ - null null
+2024-12-12 03:55:09.486 -05:00 [INF] Acceso: GET /
+2024-12-12 03:55:10.647 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMGET, timeout: 5000, inst: 12, qu: 1, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: localhost:5206, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MSI(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=16,Max=32767), POOL: (Threads=8,QueuedItems=0,CompletedItems=1408,Timers=3), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+ ---> System.InvalidOperationException: Unexpected response prefix: H
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(ResultFlags flags, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, ServerEndPoint server, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2122
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(Boolean isResp3, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, PhysicalConnection connection, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2052
+   at StackExchange.Redis.PhysicalConnection.ProcessBuffer(ReadOnlySequence`1& buffer) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1864
+   at StackExchange.Redis.PhysicalConnection.ReadFromPipe() in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1807
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at CacheMiddleware.InvokeAsync(HttpContext context) in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 91
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 68
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 03:55:10.702 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5200/ - 500 null text/html; charset=utf-8 6168.5ms
+2024-12-12 03:55:14.628 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMGET, timeout: 5000, inst: 12, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: localhost:5206, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MSI(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=2,Free=32765,Min=16,Max=32767), POOL: (Threads=7,QueuedItems=1,CompletedItems=1591,Timers=3), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+ ---> System.InvalidOperationException: Unexpected response prefix: H
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(ResultFlags flags, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, ServerEndPoint server, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2122
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(Boolean isResp3, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, PhysicalConnection connection, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2052
+   at StackExchange.Redis.PhysicalConnection.ProcessBuffer(ReadOnlySequence`1& buffer) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1864
+   at StackExchange.Redis.PhysicalConnection.ReadFromPipe() in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1807
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at CacheMiddleware.InvokeAsync(HttpContext context) in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 91
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 68
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 03:55:14.659 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5200/ - 500 null text/html; charset=utf-8 5176.9166ms
+2024-12-12 03:55:14.768 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5200/favicon.ico - null null
+2024-12-12 03:55:14.771 -05:00 [INF] Acceso: GET /favicon.ico
+2024-12-12 03:55:20.623 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 3, serverEndpoint: localhost:5206, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MSI(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=1942,Timers=3), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+ ---> System.InvalidOperationException: Unexpected response prefix: H
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(ResultFlags flags, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, ServerEndPoint server, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2122
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(Boolean isResp3, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, PhysicalConnection connection, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2052
+   at StackExchange.Redis.PhysicalConnection.ProcessBuffer(ReadOnlySequence`1& buffer) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1864
+   at StackExchange.Redis.PhysicalConnection.ReadFromPipe() in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1807
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at CacheMiddleware.InvokeAsync(HttpContext context) in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 91
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 68
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 03:55:20.648 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5200/favicon.ico - 500 null text/plain; charset=utf-8 5879.9956ms
+2024-12-12 04:01:20.510 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5200/ - null null
+2024-12-12 04:01:20.512 -05:00 [INF] Acceso: GET /
+2024-12-12 04:01:25.625 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 4, serverEndpoint: localhost:5206, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MSI(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=22033,Timers=3), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+ ---> System.InvalidOperationException: Unexpected response prefix: H
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(ResultFlags flags, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, ServerEndPoint server, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2122
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(Boolean isResp3, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, PhysicalConnection connection, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2052
+   at StackExchange.Redis.PhysicalConnection.ProcessBuffer(ReadOnlySequence`1& buffer) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1864
+   at StackExchange.Redis.PhysicalConnection.ReadFromPipe() in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1807
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at CacheMiddleware.InvokeAsync(HttpContext context) in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 91
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 68
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 04:01:25.676 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5200/ - 500 null text/html; charset=utf-8 5165.2855ms
+2024-12-12 04:01:25.803 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5200/favicon.ico - null null
+2024-12-12 04:01:25.804 -05:00 [INF] Acceso: GET /favicon.ico
+2024-12-12 04:01:31.620 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 5, serverEndpoint: localhost:5206, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MSI(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=22383,Timers=3), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+ ---> System.InvalidOperationException: Unexpected response prefix: H
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(ResultFlags flags, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, ServerEndPoint server, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2122
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(Boolean isResp3, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, PhysicalConnection connection, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2052
+   at StackExchange.Redis.PhysicalConnection.ProcessBuffer(ReadOnlySequence`1& buffer) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1864
+   at StackExchange.Redis.PhysicalConnection.ReadFromPipe() in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1807
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at CacheMiddleware.InvokeAsync(HttpContext context) in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 91
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 68
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 04:01:31.639 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5200/favicon.ico - 500 null text/plain; charset=utf-8 5836.4681ms
+2024-12-12 08:23:59.976 -05:00 [INF] User profile is available. Using 'C:\Users\sebas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 08:24:00.123 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2024-12-12 08:24:00.149 -05:00 [INF] Now listening on: https://localhost:5200
+2024-12-12 08:24:00.151 -05:00 [INF] Now listening on: http://localhost:5206
+2024-12-12 08:24:00.156 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 08:24:00.159 -05:00 [INF] Hosting environment: Development
+2024-12-12 08:24:00.164 -05:00 [INF] Content root path: C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway
+2024-12-12 08:41:09.477 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5200/proxy/auth/register - application/json 103
+2024-12-12 08:41:09.525 -05:00 [INF] Acceso: POST /proxy/auth/register
+2024-12-12 08:41:15.706 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMGET, timeout: 5000, inst: 12, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:5206, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MSI(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=16,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=23002,Timers=3), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+ ---> System.InvalidOperationException: Unexpected response prefix: H
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(ResultFlags flags, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, ServerEndPoint server, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2122
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(Boolean isResp3, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, PhysicalConnection connection, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2052
+   at StackExchange.Redis.PhysicalConnection.ProcessBuffer(ReadOnlySequence`1& buffer) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1864
+   at StackExchange.Redis.PhysicalConnection.ReadFromPipe() in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1807
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at CacheMiddleware.InvokeAsync(HttpContext context) in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 91
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 68
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 08:41:15.774 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5200/proxy/auth/register - 500 null text/plain; charset=utf-8 6298.9514ms
+2024-12-12 08:41:42.853 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5200/proxy/auth/register - application/json 108
+2024-12-12 08:41:42.872 -05:00 [INF] Acceso: POST /proxy/auth/register
+2024-12-12 08:41:48.649 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: localhost:5206, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MSI(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=24832,Timers=3), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+ ---> System.InvalidOperationException: Unexpected response prefix: H
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(ResultFlags flags, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, ServerEndPoint server, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2122
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(Boolean isResp3, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, PhysicalConnection connection, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2052
+   at StackExchange.Redis.PhysicalConnection.ProcessBuffer(ReadOnlySequence`1& buffer) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1864
+   at StackExchange.Redis.PhysicalConnection.ReadFromPipe() in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1807
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at CacheMiddleware.InvokeAsync(HttpContext context) in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 91
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 68
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 08:41:48.668 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5200/proxy/auth/register - 500 null text/plain; charset=utf-8 5814.4883ms
+2024-12-12 08:41:51.643 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5200/proxy/auth/register - application/json 107
+2024-12-12 08:41:51.674 -05:00 [INF] Acceso: POST /proxy/auth/register
+2024-12-12 08:41:57.655 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 3, serverEndpoint: localhost:5206, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MSI(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=25353,Timers=3), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+ ---> System.InvalidOperationException: Unexpected response prefix: H
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(ResultFlags flags, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, ServerEndPoint server, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2122
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(Boolean isResp3, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, PhysicalConnection connection, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2052
+   at StackExchange.Redis.PhysicalConnection.ProcessBuffer(ReadOnlySequence`1& buffer) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1864
+   at StackExchange.Redis.PhysicalConnection.ReadFromPipe() in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1807
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at CacheMiddleware.InvokeAsync(HttpContext context) in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 91
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 68
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 08:41:57.665 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5200/proxy/auth/register - 500 null text/plain; charset=utf-8 6022.5601ms
+2024-12-12 08:46:23.969 -05:00 [INF] Request starting HTTP/1.1 POST https://localhost:5200/proxy/auth/register - application/json 107
+2024-12-12 08:46:23.983 -05:00 [INF] Acceso: POST /proxy/auth/register
+2024-12-12 08:46:29.650 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 4, serverEndpoint: localhost:5206, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MSI(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=16,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=40366,Timers=4), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: InternalFailure (ReadEndOfStream, last-recv: 0) on localhost:5206/Interactive, Flushed/Faulted, last: ECHO, origin: ReadFromPipe, outstanding: 12, last-read: 0s ago, last-write: 0s ago, unanswered-write: 0s ago, keep-alive: 60s, state: ConnectedEstablishing, mgr: 8 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+ ---> System.InvalidOperationException: Unexpected response prefix: H
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(ResultFlags flags, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, ServerEndPoint server, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2122
+   at StackExchange.Redis.PhysicalConnection.TryParseResult(Boolean isResp3, Arena`1 arena, ReadOnlySequence`1& buffer, BufferReader& reader, Boolean includeDetilInExceptions, PhysicalConnection connection, Boolean allowInlineProtocol) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 2052
+   at StackExchange.Redis.PhysicalConnection.ProcessBuffer(ReadOnlySequence`1& buffer) in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1864
+   at StackExchange.Redis.PhysicalConnection.ReadFromPipe() in /_/src/StackExchange.Redis/PhysicalConnection.cs:line 1807
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at CacheMiddleware.InvokeAsync(HttpContext context) in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 91
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Sales2024.Gateway\Program.cs:line 68
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.MiddlewareAnalysis.AnalysisMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 08:46:29.667 -05:00 [INF] Request finished HTTP/1.1 POST https://localhost:5200/proxy/auth/register - 500 null text/plain; charset=utf-8 5698.2325ms
+2024-12-12 08:51:27.158 -05:00 [INF] Application is shutting down...

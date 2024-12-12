@@ -256,24 +256,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/cristiantello/.nuget/packages/": {}
+    "C:\\Users\\sebas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cristiantello/Documents/University/Sales2024/Security/Security.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\EJERCICIOS_DISTRIBUIDAS\\PROYECTO\\Sales2024-Proyecto-Distribuidas\\Security\\Security.csproj",
       "projectName": "Security",
-      "projectPath": "/Users/cristiantello/Documents/University/Sales2024/Security/Security.csproj",
-      "packagesPath": "/Users/cristiantello/.nuget/packages/",
-      "outputPath": "/Users/cristiantello/Documents/University/Sales2024/Security/obj/",
+      "projectPath": "C:\\xampp\\htdocs\\EJERCICIOS_DISTRIBUIDAS\\PROYECTO\\Sales2024-Proyecto-Distribuidas\\Security\\Security.csproj",
+      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\EJERCICIOS_DISTRIBUIDAS\\PROYECTO\\Sales2024-Proyecto-Distribuidas\\Security\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/cristiantello/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -327,7 +334,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

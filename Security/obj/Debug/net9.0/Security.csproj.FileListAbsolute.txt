@@ -11,3 +11,16 @@
 /Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/refint/Security.dll
 /Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/Security.pdb
 /Users/cristiantello/Documents/University/Sales2024/Security/obj/Debug/net9.0/ref/Security.dll
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\bin\Debug\net9.0\Security.deps.json
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\bin\Debug\net9.0\Security.dll
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\bin\Debug\net9.0\Security.pdb
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\Security.csproj.AssemblyReference.cache
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\Security.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\Security.AssemblyInfoInputs.cache
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\Security.AssemblyInfo.cs
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\Security.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\Security.sourcelink.json
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\Security.dll
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\refint\Security.dll
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\Security.pdb
+C:\xampp\htdocs\EJERCICIOS_DISTRIBUIDAS\PROYECTO\Sales2024-Proyecto-Distribuidas\Security\obj\Debug\net9.0\ref\Security.dll

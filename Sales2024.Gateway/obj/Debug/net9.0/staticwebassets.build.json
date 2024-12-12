@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fkQUQDB/OyrbYbA6DF4q4mrCvtxifsNfDgvdEJZ+lmA=",
+  "Source": "Sales2024.Gateway",
+  "BasePath": "_content/Sales2024.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

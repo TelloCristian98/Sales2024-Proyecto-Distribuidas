@@ -1,0 +1,21 @@
+{
+    "Routes": [
+      {
+        "DownstreamPathTemplate": "/api/{everything}",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          { "Host": "localhost", "Port": 5205 }
+        ],
+        "UpstreamPathTemplate": "/proxy/{everything}",
+        "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      }
+    ],
+    "GlobalConfiguration": {
+      "BaseUrl": "https://localhost:5205"
+    }
+  }
+  

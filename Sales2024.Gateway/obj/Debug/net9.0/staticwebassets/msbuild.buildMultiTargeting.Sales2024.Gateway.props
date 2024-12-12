@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sales2024.Gateway.props" />
+</Project>
